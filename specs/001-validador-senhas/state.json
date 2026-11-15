@@ -10,7 +10,7 @@
                      "build":  null
                  },
     "last_reviewed_commit":  "5ad67724a737f52077e6c4669818819207e7e6ba",
-    "stage":  "AGUARDANDO_MERGE",
+    "stage":  "ENTREGUE",
     "artifacts":  {
                       "spec":  "specs/001-validador-senhas/spec.md",
                       "requirements_checklist":  "specs/001-validador-senhas/checklists/requirements.md",
@@ -32,7 +32,8 @@
                   "e5_review":  "aprovado com ressalvas",
                   "e6_qa":  "aprovado",
                   "e6_qa_review":  "aprovado com ressalvas",
-                  "e7_pr":  "aprovado"
+                  "e7_pr":  "aprovado",
+                  "e8_delivery":  "aprovado"
               },
     "tasks_done":  [
                        "T001",
@@ -66,10 +67,13 @@
                                                            "mensagem":  "Aprovado"
                                                        },
                               "merge_approval":  {
-                                                     "status":  "pendente"
+                                                     "status":  "aprovado",
+                                                     "aprovado_em":  "2026-11-15T19:41:55-03:00",
+                                                     "tipo_conclusao":  "entrega_em_repositorio_independente",
+                                                     "justificativa":  "Aprovado pelo humano mediante publicacao integral no repositorio independente Larissa-M-O/validador-senhas e encerramento formal sem merge do PR #1 da fabrica para preservar o isolamento arquitetural."
                                                  }
                           },
-    "updated_at":  "2026-11-15T19:20:43-03:00",
+    "updated_at":  "2026-11-15T19:41:55-03:00",
     "delivery":  {
                      "status":  "entregue_repositorio_independente",
                      "repository":  "https://github.com/Larissa-M-O/validador-senhas",
