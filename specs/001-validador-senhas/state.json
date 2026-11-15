@@ -1,71 +1,81 @@
-{
-  "feature": "001-validador-senhas",
-  "base_branch": "main",
-  "branch": "001-validador-senhas",
-  "gh_path": "& \"C:\\Program Files\\GitHub CLI\\gh.exe\"",
-  "pull_request": "https://github.com/Larissa-M-O/fabrica-software-agentica/pull/1",
-  "commands": {
-    "test": "python -m unittest discover -s tests -p \"test_*.py\"",
-    "lint": "python -m compileall -q src tests",
-    "build": null
-  },
-  "last_reviewed_commit": "5ad67724a737f52077e6c4669818819207e7e6ba",
-  "stage": "AGUARDANDO_MERGE",
-  "artifacts": {
-    "spec": "specs/001-validador-senhas/spec.md",
-    "requirements_checklist": "specs/001-validador-senhas/checklists/requirements.md",
-    "plan": "specs/001-validador-senhas/plan.md",
-    "research": "specs/001-validador-senhas/research.md",
-    "data_model": "specs/001-validador-senhas/data-model.md",
-    "contracts": "specs/001-validador-senhas/contracts/validator_api.md",
-    "quickstart": "specs/001-validador-senhas/quickstart.md",
-    "tasks": "specs/001-validador-senhas/tasks.md",
-    "review_report": "specs/001-validador-senhas/review-report.md",
-    "qa_report": "specs/001-validador-senhas/qa-report.md"
-  },
-  "gates": {
-    "e1_spec": "aprovado",
-    "e2_plan": "aprovado",
-    "e3_tasks": "aprovado",
-    "e3_5_analysis": "aprovado",
-    "e4_implementation": "aprovado",
-    "e5_review": "aprovado com ressalvas",
-    "e6_qa": "aprovado",
-    "e6_qa_review": "aprovado com ressalvas",
-    "e7_pr": "aprovado"
-  },
-  "tasks_done": [
-    "T001",
-    "T002",
-    "T003",
-    "T004",
-    "T005",
-    "T006",
-    "T007",
-    "T008",
-    "T009",
-    "T010",
-    "T011",
-    "T012",
-    "T013",
-    "T014",
-    "T015",
-    "T016",
-    "T017",
-    "T018",
-    "T019",
-    "T020"
-  ],
-  "blockers": [],
-  "human_checkpoints": {
-    "specification_review": {
-      "status": "aprovado",
-      "aprovado_em": "2026-11-15T16:31:02-03:00",
-      "mensagem": "Aprovado"
-    },
-    "merge_approval": {
-      "status": "pendente"
-    }
-  },
-  "updated_at": "2026-11-15T17:34:00-03:00"
+﻿{
+    "feature":  "001-validador-senhas",
+    "base_branch":  "main",
+    "branch":  "001-validador-senhas",
+    "gh_path":  "\u0026 \"C:\\Program Files\\GitHub CLI\\gh.exe\"",
+    "pull_request":  "https://github.com/Larissa-M-O/fabrica-software-agentica/pull/1",
+    "commands":  {
+                     "test":  "python -m unittest discover -s tests -p \"test_*.py\"",
+                     "lint":  "python -m compileall -q src tests",
+                     "build":  null
+                 },
+    "last_reviewed_commit":  "5ad67724a737f52077e6c4669818819207e7e6ba",
+    "stage":  "AGUARDANDO_MERGE",
+    "artifacts":  {
+                      "spec":  "specs/001-validador-senhas/spec.md",
+                      "requirements_checklist":  "specs/001-validador-senhas/checklists/requirements.md",
+                      "plan":  "specs/001-validador-senhas/plan.md",
+                      "research":  "specs/001-validador-senhas/research.md",
+                      "data_model":  "specs/001-validador-senhas/data-model.md",
+                      "contracts":  "specs/001-validador-senhas/contracts/validator_api.md",
+                      "quickstart":  "specs/001-validador-senhas/quickstart.md",
+                      "tasks":  "specs/001-validador-senhas/tasks.md",
+                      "review_report":  "specs/001-validador-senhas/review-report.md",
+                      "qa_report":  "specs/001-validador-senhas/qa-report.md"
+                  },
+    "gates":  {
+                  "e1_spec":  "aprovado",
+                  "e2_plan":  "aprovado",
+                  "e3_tasks":  "aprovado",
+                  "e3_5_analysis":  "aprovado",
+                  "e4_implementation":  "aprovado",
+                  "e5_review":  "aprovado com ressalvas",
+                  "e6_qa":  "aprovado",
+                  "e6_qa_review":  "aprovado com ressalvas",
+                  "e7_pr":  "aprovado"
+              },
+    "tasks_done":  [
+                       "T001",
+                       "T002",
+                       "T003",
+                       "T004",
+                       "T005",
+                       "T006",
+                       "T007",
+                       "T008",
+                       "T009",
+                       "T010",
+                       "T011",
+                       "T012",
+                       "T013",
+                       "T014",
+                       "T015",
+                       "T016",
+                       "T017",
+                       "T018",
+                       "T019",
+                       "T020"
+                   ],
+    "blockers":  [
+
+                 ],
+    "human_checkpoints":  {
+                              "specification_review":  {
+                                                           "status":  "aprovado",
+                                                           "aprovado_em":  "2026-11-15T16:31:02-03:00",
+                                                           "mensagem":  "Aprovado"
+                                                       },
+                              "merge_approval":  {
+                                                     "status":  "pendente"
+                                                 }
+                          },
+    "updated_at":  "2026-11-15T19:20:43-03:00",
+    "delivery":  {
+                     "status":  "entregue_repositorio_independente",
+                     "repository":  "https://github.com/Larissa-M-O/validador-senhas",
+                     "pr_fabrica_original":  "https://github.com/Larissa-M-O/fabrica-software-agentica/pull/1",
+                     "pr_fabrica_status":  "CLOSED_WITHOUT_MERGE",
+                     "justificativa":  "Isolamento arquitetural entre a fabrica agêntica e o produto de software desenvolvido",
+                     "entregue_em":  "2026-11-15T19:20:43-03:00"
+                 }
 }
