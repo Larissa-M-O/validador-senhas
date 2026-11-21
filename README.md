@@ -157,3 +157,13 @@ python -m compileall -q src tests
 - 50 testes passando (100% de sucesso).
 - Tempo total de execução: ~0.09s.
 - Zero dependências externas.
+
+## Demonstração
+
+O projeto disponibiliza o arquivo `demonstracao.py`, que apresenta exemplos práticos de validação de senhas com diferentes níveis de força.
+
+Para executar a demonstração, na raiz do projeto, utilize:
+
+```bash
+set PYTHONPATH=src
+python demonstracao.py
